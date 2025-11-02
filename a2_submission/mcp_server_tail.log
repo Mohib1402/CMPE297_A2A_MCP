@@ -1,0 +1,14 @@
+2025-11-02 03:47:35,158 INFO request={"base": "USD", "quote": "EUR", "date": "latest"}
+2025-11-02 03:47:35,159 INFO response={"base": "USD", "quote": "EUR", "date": "latest", "rate": 0.92}
+2025-11-02 03:47:35,162 INFO request={"base": "EUR", "quote": "USD", "date": "latest"}
+2025-11-02 03:47:35,162 INFO response={"base": "EUR", "quote": "USD", "date": "latest", "rate": 1.087}
+2025-11-02 03:47:35,165 INFO request={"base": "INR", "quote": "USD", "date": "latest"}
+2025-11-02 03:47:35,165 INFO response={"base": "INR", "quote": "USD", "date": "latest", "rate": 0.012}
+2025-11-02 03:47:35,167 INFO request={"base": "USD", "quote": "JPY", "date": "latest"}
+2025-11-02 04:50:40,563 INFO request={"base": "USD", "quote": "EUR", "date": "latest"}
+2025-11-02 04:50:40,563 INFO response={"base": "USD", "quote": "EUR", "date": "latest", "rate": 0.92}
+2025-11-02 04:50:40,574 INFO request={"base": "EUR", "quote": "USD", "date": "latest"}
+2025-11-02 04:50:40,574 INFO response={"base": "EUR", "quote": "USD", "date": "latest", "rate": 1.087}
+2025-11-02 04:50:40,583 INFO request={"base": "INR", "quote": "USD", "date": "latest"}
+2025-11-02 04:50:40,583 INFO response={"base": "INR", "quote": "USD", "date": "latest", "rate": 0.012}
+2025-11-02 04:50:40,592 INFO request={"base": "USD", "quote": "JPY", "date": "latest"}

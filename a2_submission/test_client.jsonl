@@ -1,0 +1,4 @@
+{"ts": "2025-11-02 04:50:40", "status": 200, "url": "http://127.0.0.1:7890/convert?base=USD&quote=EUR&date=latest&amount=10.0", "body": {"base": "USD", "quote": "EUR", "date": "latest", "rate": 0.92, "amount": 10.0, "converted": 9.200000000000001}}
+{"ts": "2025-11-02 04:50:40", "status": 200, "url": "http://127.0.0.1:7890/convert?base=EUR&quote=USD&date=latest&amount=15.25", "body": {"base": "EUR", "quote": "USD", "date": "latest", "rate": 1.087, "amount": 15.25, "converted": 16.57675}}
+{"ts": "2025-11-02 04:50:40", "status": 200, "url": "http://127.0.0.1:7890/convert?base=INR&quote=USD&date=latest&amount=1000", "body": {"base": "INR", "quote": "USD", "date": "latest", "rate": 0.012, "amount": 1000.0, "converted": 12.0}}
+{"ts": "2025-11-02 04:50:40", "status": 404, "url": "http://127.0.0.1:7890/convert?base=USD&quote=JPY&date=latest&amount=5.0", "body": {"detail": "{\"detail\":\"Rate USD->JPY not found for latest\"}"}}

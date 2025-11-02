@@ -1,0 +1,3 @@
+service_url=https://mcp-server-ffc4zfuh6a-uc.a.run.app
+region=us-central1
+service=mcp-server

@@ -1,0 +1,49 @@
+{
+  "ts": "2025-11-02T06:18:50Z",
+  "step": "concierge_get_menus",
+  "url": "https://concierge-ffc4zfuh6a-uc.a.run.app/menus",
+  "payload": "",
+  "resp": "{\"burger\":{\"seller\":\"burger\",\"items\":[{\"id\":1,\"name\":\"Classic Burger\",\"price\":7.99},{\"id\":2,\"name\":\"Cheese Burger\",\"price\":8.99},{\"id\":3,\"name\":\"Veggie Burger\",\"price\":7.49},{\"id\":4,\"name\":\"Double Stack\",\"price\":10.49}]},\"pizza\":{\"vendor\":\"pizza\",\"items\":[{\"id\":\"margherita\",\"name\":\"Margherita\",\"price\":12.5},{\"id\":\"pepperoni\",\"name\":\"Pepperoni\",\"price\":14.25},{\"id\":\"veggie\",\"name\":\"Veggie\",\"price\":13.75}]}}"
+}
+{
+  "ts": "2025-11-02T06:18:50Z",
+  "step": "burger_get_menu_direct",
+  "url": "https://burger-seller-ffc4zfuh6a-uc.a.run.app/menu",
+  "payload": "",
+  "resp": "{\"seller\":\"burger\",\"items\":[{\"id\":1,\"name\":\"Classic Burger\",\"price\":7.99},{\"id\":2,\"name\":\"Cheese Burger\",\"price\":8.99},{\"id\":3,\"name\":\"Veggie Burger\",\"price\":7.49},{\"id\":4,\"name\":\"Double Stack\",\"price\":10.49}]}"
+}
+{
+  "ts": "2025-11-02T06:18:50Z",
+  "step": "pizza_get_menu_direct",
+  "url": "https://pizza-seller-ffc4zfuh6a-uc.a.run.app/menu",
+  "payload": "",
+  "resp": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>403 Forbidden</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Forbidden</h1>\n<h2>Your client does not have permission to get URL <code>/menu</code> from this server.</h2>\n<h2></h2>\n</body></html>"
+}
+{
+  "ts": "2025-11-02T06:18:51Z",
+  "step": "concierge_post_order_burger",
+  "url": "https://concierge-ffc4zfuh6a-uc.a.run.app/order?seller=burger",
+  "payload": "{\"item_id\":2,\"qty\":1}",
+  "resp": "{\"order_id\":\"ebe55c03\",\"seller\":\"burger\",\"item\":{\"id\":2,\"name\":\"Cheese Burger\",\"price\":8.99},\"qty\":1,\"total\":8.99,\"status\":\"accepted\"}"
+}
+{
+  "ts": "2025-11-02T06:18:51Z",
+  "step": "concierge_post_order_pizza",
+  "url": "https://concierge-ffc4zfuh6a-uc.a.run.app/order?seller=pizza",
+  "payload": "{\"item\":\"pepperoni\",\"qty\":2}",
+  "resp": "{\"vendor\":\"pizza\",\"item_id\":\"pepperoni\",\"quantity\":2,\"unit_price\":14.25,\"total\":28.5,\"order_id\":\"pz-pepperoni-2\"}"
+}
+{
+  "ts": "2025-11-02T06:18:51Z",
+  "step": "burger_post_order_direct",
+  "url": "https://burger-seller-ffc4zfuh6a-uc.a.run.app/order",
+  "payload": "{\"item_id\":2,\"qty\":1}",
+  "resp": "{\"order_id\":\"03ac2ac7\",\"seller\":\"burger\",\"item\":{\"id\":2,\"name\":\"Cheese Burger\",\"price\":8.99},\"qty\":1,\"total\":8.99,\"status\":\"accepted\"}"
+}
+{
+  "ts": "2025-11-02T06:18:51Z",
+  "step": "pizza_post_order_direct",
+  "url": "https://pizza-seller-ffc4zfuh6a-uc.a.run.app/order",
+  "payload": "{\"item_id\":\"pepperoni\",\"quantity\":2}",
+  "resp": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>403 Forbidden</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Forbidden</h1>\n<h2>Your client does not have permission to get URL <code>/order</code> from this server.</h2>\n<h2></h2>\n</body></html>"
+}

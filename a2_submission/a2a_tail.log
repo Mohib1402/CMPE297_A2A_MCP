@@ -1,0 +1,9 @@
+INFO:     Started server process [28657]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:7890 (Press CTRL+C to quit)
+INFO:     127.0.0.1:40886 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48656 - "GET /convert?base=USD&quote=EUR&date=latest&amount=10.0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48670 - "GET /convert?base=EUR&quote=USD&date=latest&amount=15.25 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48686 - "GET /convert?base=INR&quote=USD&date=latest&amount=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48696 - "GET /convert?base=USD&quote=JPY&date=latest&amount=5.0 HTTP/1.1" 404 Not Found

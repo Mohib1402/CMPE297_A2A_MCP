@@ -1,0 +1,4 @@
+{"ts": "2025-11-02 03:47:35", "status": 200, "url": "http://127.0.0.1:9000/api/get_exchange_rate?base=USD&quote=EUR&date=latest", "payload": {"base": "USD", "quote": "EUR", "date": "latest", "rate": 0.92}}
+{"ts": "2025-11-02 03:47:35", "status": 200, "url": "http://127.0.0.1:9000/api/get_exchange_rate?base=EUR&quote=USD&date=latest", "payload": {"base": "EUR", "quote": "USD", "date": "latest", "rate": 1.087}}
+{"ts": "2025-11-02 03:47:35", "status": 200, "url": "http://127.0.0.1:9000/api/get_exchange_rate?base=INR&quote=USD&date=latest", "payload": {"base": "INR", "quote": "USD", "date": "latest", "rate": 0.012}}
+{"ts": "2025-11-02 03:47:35", "status": 404, "url": "http://127.0.0.1:9000/api/get_exchange_rate?base=USD&quote=JPY&date=latest", "payload": {"detail": "Rate USD->JPY not found for latest"}}

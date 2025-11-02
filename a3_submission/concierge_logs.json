@@ -1,0 +1,1551 @@
+[
+  {
+    "insertId": "6906f5d3000d7735d2fb940f",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:10:28.211386580Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:59122 - \"POST /order?seller=pizza HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T06:10:27.882485Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.197814253s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "POST",
+      "requestSize": "358",
+      "requestUrl": "https://concierge-ffc4zfuh6a-uc.a.run.app/order?seller=pizza",
+      "responseSize": "214",
+      "serverIp": "34.143.72.2",
+      "status": 200,
+      "userAgent": "curl/7.81.0"
+    },
+    "insertId": "6906f5d3000d7b98f902dff2",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:10:28.211067172Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "3e4d80726be86c41",
+    "timestamp": "2025-11-02T06:10:27.682843Z",
+    "trace": "projects/airy-aria-476909-d1/traces/50f5467c0aab848f851c5cbc024e3de1"
+  },
+  {
+    "insertId": "6906f5d300083d97fd9c2cf3",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:10:27.553341981Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:59110 - \"POST /order?seller=burger HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T06:10:27.540055Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.043426457s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "POST",
+      "requestSize": "355",
+      "requestUrl": "https://concierge-ffc4zfuh6a-uc.a.run.app/order?seller=burger",
+      "responseSize": "235",
+      "serverIp": "34.143.72.2",
+      "status": 200,
+      "userAgent": "curl/7.81.0"
+    },
+    "insertId": "6906f5d3000842c91b138cb4",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:10:27.547454451Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "680801f2bca59357",
+    "timestamp": "2025-11-02T06:10:27.485798Z",
+    "trace": "projects/airy-aria-476909-d1/traces/7ec89a8520421343d8e622f0433a102f",
+    "traceSampled": true
+  },
+  {
+    "insertId": "6906f560000e182f56181e01",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:08:32.927011127Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:49114 - \"GET /menus HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T06:08:32.923695Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "3.791690841s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "GET",
+      "requestSize": "265",
+      "requestUrl": "https://concierge-ffc4zfuh6a-uc.a.run.app/menus",
+      "responseSize": "510",
+      "serverIp": "34.143.79.2",
+      "status": 200,
+      "userAgent": "curl/7.81.0"
+    },
+    "insertId": "6906f560000e1d5d7ccd6696",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:08:32.929180740Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "4145ea42558176bb",
+    "timestamp": "2025-11-02T06:08:29.125614Z",
+    "trace": "projects/airy-aria-476909-d1/traces/ae698c068f958c7fb5f46b3d9f005b53",
+    "traceSampled": true
+  },
+  {
+    "insertId": "lodlqtdy758",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "methodName": "/Services.ReplaceService",
+      "resourceName": "namespaces/airy-aria-476909-d1/services/concierge",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.Service",
+        "apiVersion": "serving.knative.dev/v1",
+        "kind": "Service",
+        "metadata": {
+          "annotations": {
+            "run.googleapis.com/client-name": "gcloud",
+            "run.googleapis.com/client-version": "545.0.0",
+            "run.googleapis.com/ingress": "all",
+            "run.googleapis.com/ingress-status": "all",
+            "run.googleapis.com/operation-id": "fd8aa4c3-c584-4804-8852-a247541cb256",
+            "run.googleapis.com/urls": "[\"https://concierge-235548062971.us-central1.run.app\",\"https://concierge-ffc4zfuh6a-uc.a.run.app\"]",
+            "serving.knative.dev/creator": "mohibkhan949@gmail.com",
+            "serving.knative.dev/lastModifier": "mohibkhan949@gmail.com"
+          },
+          "creationTimestamp": "2025-11-02T05:44:43.134818Z",
+          "generation": 2,
+          "labels": {
+            "cloud.googleapis.com/location": "us-central1"
+          },
+          "name": "concierge",
+          "namespace": "235548062971",
+          "resourceVersion": "AAZClm1Ie88",
+          "selfLink": "/apis/serving.knative.dev/v1/namespaces/235548062971/services/concierge",
+          "uid": "8f2f26e1-2f25-4af0-98d0-55a8e24ce7ab"
+        },
+        "spec": {
+          "template": {
+            "metadata": {
+              "annotations": {
+                "autoscaling.knative.dev/maxScale": "20",
+                "run.googleapis.com/client-name": "gcloud",
+                "run.googleapis.com/client-version": "545.0.0",
+                "run.googleapis.com/startup-cpu-boost": "true"
+              },
+              "labels": {
+                "client.knative.dev/nonce": "ohtijnvqnz",
+                "run.googleapis.com/startupProbeType": "Default"
+              }
+            },
+            "spec": {
+              "containerConcurrency": 80,
+              "containers": [
+                {
+                  "env": [
+                    {
+                      "name": "BURGER_URL",
+                      "value": "https://burger-seller-235548062971.us-central1.run.app"
+                    },
+                    {
+                      "name": "PIZZA_URL",
+                      "value": "https://pizza-seller-235548062971.us-central1.run.app"
+                    }
+                  ],
+                  "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge:latest",
+                  "ports": [
+                    {
+                      "containerPort": 8080,
+                      "name": "http1"
+                    }
+                  ],
+                  "resources": {
+                    "limits": {
+                      "cpu": "1000m",
+                      "memory": "512Mi"
+                    }
+                  },
+                  "startupProbe": {
+                    "failureThreshold": 1,
+                    "periodSeconds": 240,
+                    "tcpSocket": {
+                      "port": 8080
+                    },
+                    "timeoutSeconds": 240
+                  }
+                }
+              ],
+              "serviceAccountName": "235548062971-compute@developer.gserviceaccount.com",
+              "timeoutSeconds": 300
+            }
+          },
+          "traffic": [
+            {
+              "latestRevision": true,
+              "percent": 100
+            }
+          ]
+        },
+        "status": {
+          "address": {
+            "url": "https://concierge-ffc4zfuh6a-uc.a.run.app"
+          },
+          "conditions": [
+            {
+              "lastTransitionTime": "2025-11-02T06:08:26.258383Z",
+              "status": "True",
+              "type": "Ready"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T06:08:24.951956Z",
+              "status": "True",
+              "type": "ConfigurationsReady"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T06:08:26.217480Z",
+              "status": "True",
+              "type": "RoutesReady"
+            }
+          ],
+          "latestCreatedRevisionName": "concierge-00002-th5",
+          "latestReadyRevisionName": "concierge-00002-th5",
+          "observedGeneration": 2,
+          "traffic": [
+            {
+              "latestRevision": true,
+              "percent": 100,
+              "revisionName": "concierge-00002-th5"
+            }
+          ],
+          "url": "https://concierge-ffc4zfuh6a-uc.a.run.app"
+        }
+      },
+      "serviceName": "run.googleapis.com",
+      "status": {
+        "message": "Ready condition status changed to True for Service concierge."
+      }
+    },
+    "receiveTimestamp": "2025-11-02T06:08:26.447601829Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "timestamp": "2025-11-02T06:08:26.274937Z"
+  },
+  {
+    "insertId": "ged0csdld28",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "methodName": "/Services.ReplaceService",
+      "resourceName": "namespaces/airy-aria-476909-d1/revisions/concierge-00002-th5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.Revision",
+        "apiVersion": "serving.knative.dev/v1",
+        "kind": "Revision",
+        "metadata": {
+          "annotations": {
+            "autoscaling.knative.dev/maxScale": "20",
+            "run.googleapis.com/client-name": "gcloud",
+            "run.googleapis.com/client-version": "545.0.0",
+            "run.googleapis.com/operation-id": "fd8aa4c3-c584-4804-8852-a247541cb256",
+            "run.googleapis.com/startup-cpu-boost": "true",
+            "serving.knative.dev/creator": "mohibkhan949@gmail.com"
+          },
+          "creationTimestamp": "2025-11-02T06:08:17.355179Z",
+          "generation": 1,
+          "labels": {
+            "client.knative.dev/nonce": "ohtijnvqnz",
+            "cloud.googleapis.com/location": "us-central1",
+            "run.googleapis.com/startupProbeType": "Default",
+            "serving.knative.dev/configuration": "concierge",
+            "serving.knative.dev/configurationGeneration": "2",
+            "serving.knative.dev/route": "concierge",
+            "serving.knative.dev/service": "concierge",
+            "serving.knative.dev/serviceUid": "8f2f26e1-2f25-4af0-98d0-55a8e24ce7ab"
+          },
+          "name": "concierge-00002-th5",
+          "namespace": "235548062971",
+          "ownerReferences": [
+            {
+              "apiVersion": "serving.knative.dev/v1",
+              "blockOwnerDeletion": true,
+              "controller": true,
+              "kind": "Configuration",
+              "name": "concierge",
+              "uid": "55dc1c17-d403-45e4-8c21-7cc728adc4c7"
+            }
+          ],
+          "resourceVersion": "AAZClm00EVA",
+          "selfLink": "/apis/serving.knative.dev/v1/namespaces/235548062971/revisions/concierge-00002-th5",
+          "uid": "ef5906d7-fa27-4ca4-8f5c-646e11050f4b"
+        },
+        "spec": {
+          "containerConcurrency": 80,
+          "containers": [
+            {
+              "env": [
+                {
+                  "name": "BURGER_URL",
+                  "value": "https://burger-seller-235548062971.us-central1.run.app"
+                },
+                {
+                  "name": "PIZZA_URL",
+                  "value": "https://pizza-seller-235548062971.us-central1.run.app"
+                }
+              ],
+              "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge@sha256:a8c89b1c7d5135c95682c191e0d361c49ac1fe9379b7aef9b9384c19481acc70",
+              "name": "concierge-1",
+              "ports": [
+                {
+                  "containerPort": 8080,
+                  "name": "http1"
+                }
+              ],
+              "resources": {
+                "limits": {
+                  "cpu": "1000m",
+                  "memory": "512Mi"
+                }
+              },
+              "startupProbe": {
+                "failureThreshold": 1,
+                "periodSeconds": 240,
+                "tcpSocket": {
+                  "port": 8080
+                },
+                "timeoutSeconds": 240
+              }
+            }
+          ],
+          "serviceAccountName": "235548062971-compute@developer.gserviceaccount.com",
+          "timeoutSeconds": 300
+        },
+        "status": {
+          "conditions": [
+            {
+              "lastTransitionTime": "2025-11-02T06:08:24.920400Z",
+              "message": "Deploying revision succeeded in 7.56s.",
+              "status": "True",
+              "type": "Ready"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T06:08:24.870728Z",
+              "message": "Containers became healthy in 2.34s.",
+              "status": "True",
+              "type": "ContainerHealthy"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T06:08:20.421125Z",
+              "message": "Container image import completed in 2.42s.",
+              "status": "True",
+              "type": "ContainerReady"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T06:08:22.299374Z",
+              "message": "Provisioning imported containers completed in 1.88s. Checking container health. This will wait for up to 4m for the configured startup probe, including an initial delay of 0s.",
+              "status": "True",
+              "type": "ResourcesAvailable"
+            }
+          ],
+          "containerStatuses": [
+            {
+              "imageDigest": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge@sha256:a8c89b1c7d5135c95682c191e0d361c49ac1fe9379b7aef9b9384c19481acc70",
+              "name": "concierge-1"
+            }
+          ],
+          "imageDigest": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge@sha256:a8c89b1c7d5135c95682c191e0d361c49ac1fe9379b7aef9b9384c19481acc70",
+          "logUrl": "https://console.cloud.google.com/logs/viewer?project=airy-aria-476909-d1&resource=cloud_run_revision/service_name/concierge/revision_name/concierge-00002-th5&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22concierge%22%0Aresource.labels.revision_name%3D%22concierge-00002-th5%22",
+          "observedGeneration": 1
+        }
+      },
+      "serviceName": "run.googleapis.com",
+      "status": {
+        "message": "Ready condition status changed to True for Revision concierge-00002-th5 with message: Deploying revision succeeded in 7.56s."
+      }
+    },
+    "receiveTimestamp": "2025-11-02T06:08:25.101861158Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "timestamp": "2025-11-02T06:08:24.930584Z"
+  },
+  {
+    "insertId": "6906f558000d1e901c2bed28",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T06:08:25.079020611Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"concierge-1\" on port 8080.",
+    "timestamp": "2025-11-02T06:08:24.859792Z"
+  },
+  {
+    "insertId": "6906f558000d1c41695a924b",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:25.194524009Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)",
+    "timestamp": "2025-11-02T06:08:24.859201Z"
+  },
+  {
+    "insertId": "6906f558000d175e4003e176",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:25.194524009Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Application startup complete.",
+    "timestamp": "2025-11-02T06:08:24.857950Z"
+  },
+  {
+    "insertId": "6906f558000d16561a6af41c",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:24.885802679Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Waiting for application startup.",
+    "timestamp": "2025-11-02T06:08:24.857686Z"
+  },
+  {
+    "insertId": "6906f558000d1627533d7b5f",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:24.885802679Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Started server process [2]",
+    "timestamp": "2025-11-02T06:08:24.857639Z"
+  },
+  {
+    "insertId": "6906f556000644c63a4f597f",
+    "labels": {
+      "instanceId": "0014778296a0df0cbb846cc62ba82a1ef2b7769b66eda574eb4156cdd1aec4f92d42369cf721ca016c5634610cc1ae8781183f01ff668e1cc052cae5b837ed23d5519d33c01573faf85cebf0d1",
+      "scaling_reason": "DEPLOYMENT_ROLLOUT"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T06:08:22.415986764Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00002-th5",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting new instance. Reason: DEPLOYMENT_ROLLOUT - Instance started due to traffic shifting between revisions due to deployment, traffic split adjustment, or deployment health check.",
+    "timestamp": "2025-11-02T06:08:22.410822Z"
+  },
+  {
+    "insertId": "1ckfafldqv6v",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "oauthInfo": {
+          "oauthClientId": "32555940559.apps.googleusercontent.com"
+        },
+        "principalEmail": "mohibkhan949@gmail.com",
+        "principalSubject": "user:mohibkhan949@gmail.com"
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "run.services.update",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "namespaces/airy-aria-476909-d1/services/concierge",
+          "resourceAttributes": {}
+        },
+        {
+          "granted": true,
+          "permission": "run.services.update",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "namespaces/airy-aria-476909-d1/services/concierge",
+          "resourceAttributes": {
+            "name": "namespaces/airy-aria-476909-d1/services/concierge",
+            "service": "run.googleapis.com/",
+            "type": "run.googleapis.com/Service"
+          }
+        }
+      ],
+      "methodName": "google.cloud.run.v1.Services.ReplaceService",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.ReplaceServiceRequest",
+        "name": "namespaces/airy-aria-476909-d1/services/concierge",
+        "service": {
+          "apiVersion": "serving.knative.dev/v1",
+          "kind": "Service",
+          "metadata": {
+            "annotations": {
+              "run.googleapis.com/client-name": "gcloud",
+              "run.googleapis.com/client-version": "545.0.0",
+              "run.googleapis.com/ingress": "all",
+              "run.googleapis.com/ingress-status": "all",
+              "run.googleapis.com/operation-id": "c5b7170f-f8a7-466f-8c33-36ddfc0abdfc",
+              "run.googleapis.com/urls": "[\"https://concierge-235548062971.us-central1.run.app\",\"https://concierge-ffc4zfuh6a-uc.a.run.app\"]",
+              "serving.knative.dev/creator": "mohibkhan949@gmail.com",
+              "serving.knative.dev/lastModifier": "mohibkhan949@gmail.com"
+            },
+            "creationTimestamp": "2025-11-02T05:44:43.134818Z",
+            "generation": 1,
+            "labels": {
+              "cloud.googleapis.com/location": "us-central1"
+            },
+            "name": "concierge",
+            "namespace": "235548062971",
+            "resourceVersion": "AAZClhj5J9c",
+            "selfLink": "/apis/serving.knative.dev/v1/namespaces/235548062971/services/concierge",
+            "uid": "8f2f26e1-2f25-4af0-98d0-55a8e24ce7ab"
+          },
+          "spec": {
+            "template": {
+              "metadata": {
+                "annotations": {
+                  "autoscaling.knative.dev/maxScale": "20",
+                  "run.googleapis.com/client-name": "gcloud",
+                  "run.googleapis.com/client-version": "545.0.0",
+                  "run.googleapis.com/startup-cpu-boost": "true"
+                },
+                "labels": {
+                  "client.knative.dev/nonce": "ohtijnvqnz",
+                  "run.googleapis.com/startupProbeType": "Default"
+                }
+              },
+              "spec": {
+                "containerConcurrency": 80,
+                "containers": [
+                  {
+                    "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge:latest",
+                    "resources": {
+                      "limits": {
+                        "cpu": "1000m",
+                        "memory": "512Mi"
+                      }
+                    }
+                  }
+                ],
+                "serviceAccountName": "235548062971-compute@developer.gserviceaccount.com",
+                "timeoutSeconds": 300
+              }
+            },
+            "traffic": [
+              {
+                "latestRevision": true,
+                "percent": 100
+              }
+            ]
+          },
+          "status": {
+            "conditions": [
+              {
+                "lastTransitionTime": "2025-11-02T05:44:51.773399Z",
+                "status": "True",
+                "type": "Ready"
+              },
+              {
+                "lastTransitionTime": "2025-11-02T05:44:46.428487Z",
+                "status": "True",
+                "type": "ConfigurationsReady"
+              },
+              {
+                "lastTransitionTime": "2025-11-02T05:44:51.724121Z",
+                "status": "True",
+                "type": "RoutesReady"
+              }
+            ],
+            "latestCreatedRevisionName": "concierge-00001-n6p",
+            "latestReadyRevisionName": "concierge-00001-n6p",
+            "observedGeneration": 1,
+            "traffic": [
+              {
+                "latestRevision": true,
+                "percent": 100,
+                "revisionName": "concierge-00001-n6p"
+              }
+            ],
+            "url": "https://concierge-ffc4zfuh6a-uc.a.run.app"
+          }
+        }
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.25.24",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/545.0.0 command/gcloud.run.deploy invocation-id/bfe3b04185cf410982ee0482cbc74fcf environment/None environment-version/None client-os/LINUX client-os-ver/6.6.105 client-pltf-arch/x86_64 interactive/False from-script/False python/3.12.12 term/xterm-color  (Linux 6.6.105+),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-11-02T06:08:17.308517Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      },
+      "resourceName": "namespaces/airy-aria-476909-d1/services/concierge",
+      "serviceName": "run.googleapis.com"
+    },
+    "receiveTimestamp": "2025-11-02T06:08:17.625682034Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-11-02T06:08:17.128999Z"
+  },
+  {
+    "insertId": "6906f43d0000ce9f64dbccd3",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:03:41.174738869Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:26172 - \"GET / HTTP/1.1\" 404 Not Found",
+    "timestamp": "2025-11-02T06:03:41.052895Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.002460352s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "GET",
+      "requestSize": "259",
+      "requestUrl": "https://concierge-ffc4zfuh6a-uc.a.run.app/",
+      "responseSize": "122",
+      "serverIp": "34.143.76.2",
+      "status": 404,
+      "userAgent": "curl/7.81.0"
+    },
+    "insertId": "6906f43d0000d1bdb8d64b74",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:03:41.181433597Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "WARNING",
+    "spanId": "53c963f0f1929252",
+    "timestamp": "2025-11-02T06:03:41.047947Z",
+    "trace": "projects/airy-aria-476909-d1/traces/53b7e4f3ed16fa433d0bc8ae2d9189bc"
+  },
+  {
+    "insertId": "6906f43c000de67dbb3fab48",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:03:41.174738869Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:26158 - \"GET /health HTTP/1.1\" 404 Not Found",
+    "timestamp": "2025-11-02T06:03:40.910973Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.002425631s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "GET",
+      "requestSize": "266",
+      "requestUrl": "https://concierge-ffc4zfuh6a-uc.a.run.app/health",
+      "responseSize": "122",
+      "serverIp": "34.143.76.2",
+      "status": 404,
+      "userAgent": "curl/7.81.0"
+    },
+    "insertId": "6906f43c000de9b514b05190",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:03:41.181433597Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "WARNING",
+    "spanId": "5bd55839af81ef6d",
+    "timestamp": "2025-11-02T06:03:40.905594Z",
+    "trace": "projects/airy-aria-476909-d1/traces/3ca182900d0b4b456cc2a355490ff008"
+  },
+  {
+    "insertId": "6906f43c0007a842925102cf",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:03:40.507826034Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:26144 - \"GET /openapi.json HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T06:03:40.501826Z"
+  },
+  {
+    "insertId": "6906f43c0006561f60967b85",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T06:03:40.671676236Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"concierge-1\" on port 8080.",
+    "timestamp": "2025-11-02T06:03:40.415263Z"
+  },
+  {
+    "insertId": "6906f43c000653e7669d56cb",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:03:40.752099711Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)",
+    "timestamp": "2025-11-02T06:03:40.414695Z"
+  },
+  {
+    "insertId": "6906f43c00064d723e2bf3e9",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:03:40.752099711Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Application startup complete.",
+    "timestamp": "2025-11-02T06:03:40.413042Z"
+  },
+  {
+    "insertId": "6906f43c00064c78fee167af",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:03:40.418327709Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Waiting for application startup.",
+    "timestamp": "2025-11-02T06:03:40.412792Z"
+  },
+  {
+    "insertId": "6906f43c00064c557171859e",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:03:40.418327709Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Started server process [2]",
+    "timestamp": "2025-11-02T06:03:40.412757Z"
+  },
+  {
+    "insertId": "6906f43a000a2b17ec7e400d",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786",
+      "scaling_reason": "AUTOSCALING"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T06:03:38.671937182Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting new instance. Reason: AUTOSCALING - Instance started due to configured scaling factors (e.g. CPU utilization, request throughput, etc.) or no existing capacity for current traffic.",
+    "timestamp": "2025-11-02T06:03:38.666391Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "1.738977150s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "GET",
+      "requestSize": "272",
+      "requestUrl": "https://concierge-ffc4zfuh6a-uc.a.run.app/openapi.json",
+      "responseSize": "1643",
+      "serverIp": "34.143.76.2",
+      "status": 200,
+      "userAgent": "curl/7.81.0"
+    },
+    "insertId": "6906f43c0007c37a6740f2ea",
+    "labels": {
+      "instanceId": "0014778296f4275b038bd51dcd03ecf4f6a48432664002d53c3280fbc5cf32289e6f983b7444bbf08eed3528ceaf518728cd34a33ceabc1a66f47eb9083e932e6faeb4bd3771942a19267a9f1786"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:03:40.514626644Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "1aa2ea5c63551cd6",
+    "timestamp": "2025-11-02T06:03:38.654925Z",
+    "trace": "projects/airy-aria-476909-d1/traces/66613af4d5ba95523528c15e68fc282a",
+    "traceSampled": true
+  },
+  {
+    "insertId": "-da2yg8dipz8",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "methodName": "/Services.CreateService",
+      "resourceName": "namespaces/airy-aria-476909-d1/services/concierge",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.Service",
+        "apiVersion": "serving.knative.dev/v1",
+        "kind": "Service",
+        "metadata": {
+          "annotations": {
+            "run.googleapis.com/client-name": "gcloud",
+            "run.googleapis.com/client-version": "545.0.0",
+            "run.googleapis.com/ingress": "all",
+            "run.googleapis.com/ingress-status": "all",
+            "run.googleapis.com/operation-id": "c5b7170f-f8a7-466f-8c33-36ddfc0abdfc",
+            "run.googleapis.com/urls": "[\"https://concierge-235548062971.us-central1.run.app\",\"https://concierge-ffc4zfuh6a-uc.a.run.app\"]",
+            "serving.knative.dev/creator": "mohibkhan949@gmail.com",
+            "serving.knative.dev/lastModifier": "mohibkhan949@gmail.com"
+          },
+          "creationTimestamp": "2025-11-02T05:44:43.134818Z",
+          "generation": 1,
+          "labels": {
+            "cloud.googleapis.com/location": "us-central1"
+          },
+          "name": "concierge",
+          "namespace": "235548062971",
+          "resourceVersion": "AAZClhj5J9c",
+          "selfLink": "/apis/serving.knative.dev/v1/namespaces/235548062971/services/concierge",
+          "uid": "8f2f26e1-2f25-4af0-98d0-55a8e24ce7ab"
+        },
+        "spec": {
+          "template": {
+            "metadata": {
+              "annotations": {
+                "autoscaling.knative.dev/maxScale": "20",
+                "run.googleapis.com/client-name": "gcloud",
+                "run.googleapis.com/client-version": "545.0.0",
+                "run.googleapis.com/startup-cpu-boost": "true"
+              },
+              "labels": {
+                "client.knative.dev/nonce": "pvqmfgkmro",
+                "run.googleapis.com/startupProbeType": "Default"
+              }
+            },
+            "spec": {
+              "containerConcurrency": 80,
+              "containers": [
+                {
+                  "env": [
+                    {
+                      "name": "BURGER_URL",
+                      "value": "https://burger-seller-235548062971.us-central1.run.app"
+                    },
+                    {
+                      "name": "PIZZA_URL",
+                      "value": "https://pizza-seller-235548062971.us-central1.run.app"
+                    }
+                  ],
+                  "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge:latest",
+                  "ports": [
+                    {
+                      "containerPort": 8080,
+                      "name": "http1"
+                    }
+                  ],
+                  "resources": {
+                    "limits": {
+                      "cpu": "1000m",
+                      "memory": "512Mi"
+                    }
+                  },
+                  "startupProbe": {
+                    "failureThreshold": 1,
+                    "periodSeconds": 240,
+                    "tcpSocket": {
+                      "port": 8080
+                    },
+                    "timeoutSeconds": 240
+                  }
+                }
+              ],
+              "serviceAccountName": "235548062971-compute@developer.gserviceaccount.com",
+              "timeoutSeconds": 300
+            }
+          },
+          "traffic": [
+            {
+              "latestRevision": true,
+              "percent": 100
+            }
+          ]
+        },
+        "status": {
+          "address": {
+            "url": "https://concierge-ffc4zfuh6a-uc.a.run.app"
+          },
+          "conditions": [
+            {
+              "lastTransitionTime": "2025-11-02T05:44:51.773399Z",
+              "status": "True",
+              "type": "Ready"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:44:46.428487Z",
+              "status": "True",
+              "type": "ConfigurationsReady"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:44:51.724121Z",
+              "status": "True",
+              "type": "RoutesReady"
+            }
+          ],
+          "latestCreatedRevisionName": "concierge-00001-n6p",
+          "latestReadyRevisionName": "concierge-00001-n6p",
+          "observedGeneration": 1,
+          "traffic": [
+            {
+              "latestRevision": true,
+              "percent": 100,
+              "revisionName": "concierge-00001-n6p"
+            }
+          ],
+          "url": "https://concierge-ffc4zfuh6a-uc.a.run.app"
+        }
+      },
+      "serviceName": "run.googleapis.com",
+      "status": {
+        "message": "Ready condition status changed to True for Service concierge."
+      }
+    },
+    "receiveTimestamp": "2025-11-02T05:44:52.629836201Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "timestamp": "2025-11-02T05:44:51.790298Z"
+  },
+  {
+    "insertId": "642bk3dpv2m",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "methodName": "/Services.CreateService",
+      "resourceName": "namespaces/airy-aria-476909-d1/revisions/concierge-00001-n6p",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.Revision",
+        "apiVersion": "serving.knative.dev/v1",
+        "kind": "Revision",
+        "metadata": {
+          "annotations": {
+            "autoscaling.knative.dev/maxScale": "20",
+            "run.googleapis.com/client-name": "gcloud",
+            "run.googleapis.com/client-version": "545.0.0",
+            "run.googleapis.com/operation-id": "c5b7170f-f8a7-466f-8c33-36ddfc0abdfc",
+            "run.googleapis.com/startup-cpu-boost": "true",
+            "serving.knative.dev/creator": "mohibkhan949@gmail.com"
+          },
+          "creationTimestamp": "2025-11-02T05:44:43.253957Z",
+          "generation": 1,
+          "labels": {
+            "client.knative.dev/nonce": "pvqmfgkmro",
+            "cloud.googleapis.com/location": "us-central1",
+            "run.googleapis.com/startupProbeType": "Default",
+            "serving.knative.dev/configuration": "concierge",
+            "serving.knative.dev/configurationGeneration": "1",
+            "serving.knative.dev/route": "concierge",
+            "serving.knative.dev/service": "concierge",
+            "serving.knative.dev/serviceUid": "8f2f26e1-2f25-4af0-98d0-55a8e24ce7ab"
+          },
+          "name": "concierge-00001-n6p",
+          "namespace": "235548062971",
+          "ownerReferences": [
+            {
+              "apiVersion": "serving.knative.dev/v1",
+              "blockOwnerDeletion": true,
+              "controller": true,
+              "kind": "Configuration",
+              "name": "concierge",
+              "uid": "55dc1c17-d403-45e4-8c21-7cc728adc4c7"
+            }
+          ],
+          "resourceVersion": "AAZClhjkmVM",
+          "selfLink": "/apis/serving.knative.dev/v1/namespaces/235548062971/revisions/concierge-00001-n6p",
+          "uid": "a4996e25-78a1-408f-a229-d6ca88ef6b44"
+        },
+        "spec": {
+          "containerConcurrency": 80,
+          "containers": [
+            {
+              "env": [
+                {
+                  "name": "BURGER_URL",
+                  "value": "https://burger-seller-235548062971.us-central1.run.app"
+                },
+                {
+                  "name": "PIZZA_URL",
+                  "value": "https://pizza-seller-235548062971.us-central1.run.app"
+                }
+              ],
+              "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge@sha256:1054e0a38b04b3f6a885dea4e3f7f3d73e37b4313d4920f82f92f0a9c970b3da",
+              "name": "concierge-1",
+              "ports": [
+                {
+                  "containerPort": 8080,
+                  "name": "http1"
+                }
+              ],
+              "resources": {
+                "limits": {
+                  "cpu": "1000m",
+                  "memory": "512Mi"
+                }
+              },
+              "startupProbe": {
+                "failureThreshold": 1,
+                "periodSeconds": 240,
+                "tcpSocket": {
+                  "port": 8080
+                },
+                "timeoutSeconds": 240
+              }
+            }
+          ],
+          "serviceAccountName": "235548062971-compute@developer.gserviceaccount.com",
+          "timeoutSeconds": 300
+        },
+        "status": {
+          "conditions": [
+            {
+              "lastTransitionTime": "2025-11-02T05:44:50.426195Z",
+              "message": "Deploying revision succeeded in 7.17s.",
+              "status": "True",
+              "type": "Ready"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:44:50.342046Z",
+              "message": "Containers became healthy in 2.38s.",
+              "status": "True",
+              "type": "ContainerHealthy"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:44:46.328399Z",
+              "message": "Container image import completed in 2.4s.",
+              "status": "True",
+              "type": "ContainerReady"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:44:47.742924Z",
+              "message": "Provisioning imported containers completed in 1.41s. Checking container health. This will wait for up to 4m for the configured startup probe, including an initial delay of 0s.",
+              "status": "True",
+              "type": "ResourcesAvailable"
+            }
+          ],
+          "containerStatuses": [
+            {
+              "imageDigest": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge@sha256:1054e0a38b04b3f6a885dea4e3f7f3d73e37b4313d4920f82f92f0a9c970b3da",
+              "name": "concierge-1"
+            }
+          ],
+          "imageDigest": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge@sha256:1054e0a38b04b3f6a885dea4e3f7f3d73e37b4313d4920f82f92f0a9c970b3da",
+          "logUrl": "https://console.cloud.google.com/logs/viewer?project=airy-aria-476909-d1&resource=cloud_run_revision/service_name/concierge/revision_name/concierge-00001-n6p&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22concierge%22%0Aresource.labels.revision_name%3D%22concierge-00001-n6p%22",
+          "observedGeneration": 1
+        }
+      },
+      "serviceName": "run.googleapis.com",
+      "status": {
+        "message": "Ready condition status changed to True for Revision concierge-00001-n6p with message: Deploying revision succeeded in 7.17s."
+      }
+    },
+    "receiveTimestamp": "2025-11-02T05:44:50.932469851Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "timestamp": "2025-11-02T05:44:50.440202Z"
+  },
+  {
+    "insertId": "6906efd200050ebe8e4c61aa",
+    "labels": {
+      "instanceId": "001477829637c2434058f9c17894f2257a5c25dda88abdf03d8dfb08e74a2ac678d2750984ed266decc14da7b1f53202cff6daec1cde0a2d4ed6e6f7aaa7bf561edebe1f45373d2a018408375c1f"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T05:44:50.508694614Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"concierge-1\" on port 8080.",
+    "timestamp": "2025-11-02T05:44:50.331454Z"
+  },
+  {
+    "insertId": "6906efd200050d162a939141",
+    "labels": {
+      "instanceId": "001477829637c2434058f9c17894f2257a5c25dda88abdf03d8dfb08e74a2ac678d2750984ed266decc14da7b1f53202cff6daec1cde0a2d4ed6e6f7aaa7bf561edebe1f45373d2a018408375c1f"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:44:50.665214547Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)",
+    "timestamp": "2025-11-02T05:44:50.331030Z"
+  },
+  {
+    "insertId": "6906efd2000508a4c56c0612",
+    "labels": {
+      "instanceId": "001477829637c2434058f9c17894f2257a5c25dda88abdf03d8dfb08e74a2ac678d2750984ed266decc14da7b1f53202cff6daec1cde0a2d4ed6e6f7aaa7bf561edebe1f45373d2a018408375c1f"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:44:50.665214547Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Application startup complete.",
+    "timestamp": "2025-11-02T05:44:50.329892Z"
+  },
+  {
+    "insertId": "6906efd20005078b6efeda9e",
+    "labels": {
+      "instanceId": "001477829637c2434058f9c17894f2257a5c25dda88abdf03d8dfb08e74a2ac678d2750984ed266decc14da7b1f53202cff6daec1cde0a2d4ed6e6f7aaa7bf561edebe1f45373d2a018408375c1f"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:44:50.665214547Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Waiting for application startup.",
+    "timestamp": "2025-11-02T05:44:50.329611Z"
+  },
+  {
+    "insertId": "6906efd20005073e20c973da",
+    "labels": {
+      "instanceId": "001477829637c2434058f9c17894f2257a5c25dda88abdf03d8dfb08e74a2ac678d2750984ed266decc14da7b1f53202cff6daec1cde0a2d4ed6e6f7aaa7bf561edebe1f45373d2a018408375c1f"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:44:50.334104999Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Started server process [2]",
+    "timestamp": "2025-11-02T05:44:50.329534Z"
+  },
+  {
+    "insertId": "6906efcf000ccdc9536e9a61",
+    "labels": {
+      "instanceId": "001477829637c2434058f9c17894f2257a5c25dda88abdf03d8dfb08e74a2ac678d2750984ed266decc14da7b1f53202cff6daec1cde0a2d4ed6e6f7aaa7bf561edebe1f45373d2a018408375c1f",
+      "scaling_reason": "DEPLOYMENT_ROLLOUT"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T05:44:47.842550301Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "concierge",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "concierge-00001-n6p",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting new instance. Reason: DEPLOYMENT_ROLLOUT - Instance started due to traffic shifting between revisions due to deployment, traffic split adjustment, or deployment health check.",
+    "timestamp": "2025-11-02T05:44:47.839113Z"
+  },
+  {
+    "insertId": "1jk59uoczdp",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "oauthInfo": {
+          "oauthClientId": "32555940559.apps.googleusercontent.com"
+        },
+        "principalEmail": "mohibkhan949@gmail.com",
+        "principalSubject": "user:mohibkhan949@gmail.com"
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "run.services.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "namespaces/airy-aria-476909-d1/services/concierge",
+          "resourceAttributes": {}
+        },
+        {
+          "granted": true,
+          "permission": "run.services.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "namespaces/airy-aria-476909-d1/services/concierge",
+          "resourceAttributes": {
+            "name": "namespaces/airy-aria-476909-d1/services/concierge",
+            "service": "run.googleapis.com/",
+            "type": "run.googleapis.com/Service"
+          }
+        }
+      ],
+      "methodName": "google.cloud.run.v1.Services.CreateService",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.CreateServiceRequest",
+        "parent": "namespaces/airy-aria-476909-d1",
+        "service": {
+          "apiVersion": "serving.knative.dev/v1",
+          "kind": "Service",
+          "metadata": {
+            "annotations": {
+              "run.googleapis.com/client-name": "gcloud",
+              "run.googleapis.com/client-version": "545.0.0"
+            },
+            "name": "concierge",
+            "namespace": "airy-aria-476909-d1"
+          },
+          "spec": {
+            "template": {
+              "metadata": {
+                "annotations": {
+                  "run.googleapis.com/client-name": "gcloud",
+                  "run.googleapis.com/client-version": "545.0.0",
+                  "run.googleapis.com/startup-cpu-boost": "True"
+                },
+                "labels": {
+                  "client.knative.dev/nonce": "pvqmfgkmro"
+                }
+              },
+              "spec": {
+                "containers": [
+                  {
+                    "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/concierge:latest",
+                    "name": ""
+                  }
+                ]
+              }
+            }
+          },
+          "status": {}
+        }
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.25.24",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/545.0.0 command/gcloud.run.deploy invocation-id/28465be51aec41c7934103ff25a9e6be environment/None environment-version/None client-os/LINUX client-os-ver/6.6.105 client-pltf-arch/x86_64 interactive/False from-script/False python/3.12.12 term/xterm-color  (Linux 6.6.105+),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-11-02T05:44:43.194783Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      },
+      "resourceName": "namespaces/airy-aria-476909-d1/services/concierge",
+      "serviceName": "run.googleapis.com"
+    },
+    "receiveTimestamp": "2025-11-02T05:44:44.096507532Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "",
+        "service_name": "concierge"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-11-02T05:44:43.035497Z"
+  }
+]

@@ -1,0 +1,961 @@
+[
+  {
+    "insertId": "6906f5d3000d60133e8f82c0",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:10:27.881243717Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:15492 - \"POST /order HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T06:10:27.876563Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.005085529s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "2600:1900:0:2d01::b01",
+      "requestMethod": "POST",
+      "requestSize": "1229",
+      "requestUrl": "https://pizza-seller-235548062971.us-central1.run.app/order",
+      "responseSize": "214",
+      "serverIp": "2600:1900:4245:200::",
+      "status": 200,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906f5d3000d632b0dbcf01a",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:10:28.148168033Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "3a394da2745695b7",
+    "timestamp": "2025-11-02T06:10:27.851668Z",
+    "trace": "projects/airy-aria-476909-d1/traces/02fe6996ec1c1cf03f7454cb82413698"
+  },
+  {
+    "httpRequest": {
+      "latency": "0s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "2600:1900:0:2d01::b01",
+      "requestMethod": "POST",
+      "requestSize": "391",
+      "requestUrl": "https://pizza-seller-235548062971.us-central1.run.app/order",
+      "serverIp": "2600:1900:4243:200::",
+      "status": 403,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906f5d3000c5908bfd5a83b",
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:10:27.817034702Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "WARNING",
+    "spanId": "951bec380660f069",
+    "textPayload": "The request was not authenticated. Either allow unauthenticated invocations or set the proper Authorization header. Read more at https://cloud.google.com/run/docs/securing/authenticating Additional troubleshooting documentation can be found at: https://cloud.google.com/run/docs/troubleshooting#unauthorized-client",
+    "timestamp": "2025-11-02T06:10:27.700804Z",
+    "trace": "projects/airy-aria-476909-d1/traces/575adedb377b270b10cb0480b0094374",
+    "traceSampled": true
+  },
+  {
+    "insertId": "6906f560000ddeaa4ed05031",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:08:32.914000374Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:14710 - \"GET /menu HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T06:08:32.908970Z"
+  },
+  {
+    "insertId": "6906f560000d24850ef9429f",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T06:08:33.173331982Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"pizza-seller-1\" on port 8080.",
+    "timestamp": "2025-11-02T06:08:32.861317Z"
+  },
+  {
+    "insertId": "6906f560000d22012027f29b",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:33.197450068Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)",
+    "timestamp": "2025-11-02T06:08:32.860673Z"
+  },
+  {
+    "insertId": "6906f560000d1c7c8e6dbbad",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:33.197450068Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Application startup complete.",
+    "timestamp": "2025-11-02T06:08:32.859260Z"
+  },
+  {
+    "insertId": "6906f560000d1b25e2e1d39d",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:32.863273176Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Waiting for application startup.",
+    "timestamp": "2025-11-02T06:08:32.858917Z"
+  },
+  {
+    "insertId": "6906f560000d1aa7af73a097",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:32.863273176Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Started server process [2]",
+    "timestamp": "2025-11-02T06:08:32.858791Z"
+  },
+  {
+    "insertId": "6906f55f00029c2b46704b63",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e",
+      "scaling_reason": "AUTOSCALING"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T06:08:31.175122168Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting new instance. Reason: AUTOSCALING - Instance started due to configured scaling factors (e.g. CPU utilization, request throughput, etc.) or no existing capacity for current traffic.",
+    "timestamp": "2025-11-02T06:08:31.171051Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "1.630040578s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "2600:1900:0:2d01::b01",
+      "requestMethod": "GET",
+      "requestSize": "1136",
+      "requestUrl": "https://pizza-seller-235548062971.us-central1.run.app/menu",
+      "responseSize": "280",
+      "serverIp": "2600:1900:4244:200::",
+      "status": 200,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906f560000e070164f250ab",
+    "labels": {
+      "instanceId": "0014778296f47913a4077b8acc55b5bdba9c664568b0d4b6992a718c35233994dfccf02612157b4d232a645ec8e9d66438a526275499d5c3f2ef2c0af3557387811f43e2f569e5eb44709df47b9e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:08:33.117400623Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "152b18f7df652c76",
+    "timestamp": "2025-11-02T06:08:31.157043Z",
+    "trace": "projects/airy-aria-476909-d1/traces/3d4dbf3c0ae327911928948d093d65b9"
+  },
+  {
+    "httpRequest": {
+      "latency": "0s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "2600:1900:0:2d01::b01",
+      "requestMethod": "GET",
+      "requestSize": "298",
+      "requestUrl": "https://pizza-seller-235548062971.us-central1.run.app/menu",
+      "serverIp": "2600:1900:4242:200::",
+      "status": 403,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906f55f0001c261fcf62d47",
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:08:31.119425136Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "WARNING",
+    "spanId": "af31fc172850f66d",
+    "textPayload": "The request was not authenticated. Either allow unauthenticated invocations or set the proper Authorization header. Read more at https://cloud.google.com/run/docs/securing/authenticating Additional troubleshooting documentation can be found at: https://cloud.google.com/run/docs/troubleshooting#unauthorized-client",
+    "timestamp": "2025-11-02T06:08:31.015158Z",
+    "trace": "projects/airy-aria-476909-d1/traces/4c54d3d966c2cd342c077562c53b01e8",
+    "traceSampled": true
+  },
+  {
+    "insertId": "6906efa700047a20af5d49ac",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T05:44:07.518810627Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:57710 - \"POST /order HTTP/1.1\" 422 Unprocessable Entity",
+    "timestamp": "2025-11-02T05:44:07.293408Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.004102070s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "POST",
+      "requestSize": "918",
+      "requestUrl": "https://pizza-seller-235548062971.us-central1.run.app/order",
+      "responseSize": "217",
+      "serverIp": "34.143.75.2",
+      "status": 422,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906efa700047dc498d813d2",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T05:44:07.521402479Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "WARNING",
+    "spanId": "41465be820c44657",
+    "timestamp": "2025-11-02T05:44:07.288086Z",
+    "trace": "projects/airy-aria-476909-d1/traces/680f88d4771ca9a94370180924cac5a8"
+  },
+  {
+    "insertId": "6906efa4000cf7c848616bda",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T05:44:04.854228342Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:57746 - \"GET /menu HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T05:44:04.849864Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.004528539s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "GET",
+      "requestSize": "834",
+      "requestUrl": "https://pizza-seller-235548062971.us-central1.run.app/menu",
+      "responseSize": "280",
+      "serverIp": "34.143.75.2",
+      "status": 200,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906efa4000cfc431b93a891",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T05:44:04.853940122Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "0132f5f036ac3b1a",
+    "timestamp": "2025-11-02T05:44:04.832454Z",
+    "trace": "projects/airy-aria-476909-d1/traces/99f3afb4b3f4537abac1805993c8567d",
+    "traceSampled": true
+  },
+  {
+    "insertId": "6906eddf0006492a961eb76e",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T05:36:31.418938632Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:32994 - \"GET /menu HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T05:36:31.411946Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.015705239s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "GET",
+      "requestSize": "804",
+      "requestUrl": "https://pizza-seller-ffc4zfuh6a-uc.a.run.app/menu",
+      "responseSize": "280",
+      "serverIp": "34.143.76.2",
+      "status": 200,
+      "userAgent": "curl/7.81.0"
+    },
+    "insertId": "6906eddf0006525b8d31fb7b",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T05:36:31.420311158Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "88903af4c7454629",
+    "timestamp": "2025-11-02T05:36:31.380119Z",
+    "trace": "projects/airy-aria-476909-d1/traces/ba670e15644064a94e2830b69e3ac3d5",
+    "traceSampled": true
+  },
+  {
+    "insertId": "-i0exvidqj48",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "methodName": "/Services.CreateService",
+      "resourceName": "namespaces/airy-aria-476909-d1/services/pizza-seller",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.Service",
+        "apiVersion": "serving.knative.dev/v1",
+        "kind": "Service",
+        "metadata": {
+          "annotations": {
+            "run.googleapis.com/client-name": "gcloud",
+            "run.googleapis.com/client-version": "545.0.0",
+            "run.googleapis.com/ingress": "all",
+            "run.googleapis.com/ingress-status": "all",
+            "run.googleapis.com/operation-id": "117592dd-2890-40ab-803b-92a1d824a0c7",
+            "run.googleapis.com/urls": "[\"https://pizza-seller-235548062971.us-central1.run.app\",\"https://pizza-seller-ffc4zfuh6a-uc.a.run.app\"]",
+            "serving.knative.dev/creator": "mohibkhan949@gmail.com",
+            "serving.knative.dev/lastModifier": "mohibkhan949@gmail.com"
+          },
+          "creationTimestamp": "2025-11-02T05:35:15.994658Z",
+          "generation": 1,
+          "labels": {
+            "cloud.googleapis.com/location": "us-central1"
+          },
+          "name": "pizza-seller",
+          "namespace": "235548062971",
+          "resourceVersion": "AAZClfrBOxo",
+          "selfLink": "/apis/serving.knative.dev/v1/namespaces/235548062971/services/pizza-seller",
+          "uid": "1e545dc3-38fb-4b99-aef3-2859517c4b5f"
+        },
+        "spec": {
+          "template": {
+            "metadata": {
+              "annotations": {
+                "autoscaling.knative.dev/maxScale": "20",
+                "run.googleapis.com/client-name": "gcloud",
+                "run.googleapis.com/client-version": "545.0.0",
+                "run.googleapis.com/startup-cpu-boost": "true"
+              },
+              "labels": {
+                "client.knative.dev/nonce": "uhdnxzmxec",
+                "run.googleapis.com/startupProbeType": "Default"
+              }
+            },
+            "spec": {
+              "containerConcurrency": 80,
+              "containers": [
+                {
+                  "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/pizza-seller:latest",
+                  "ports": [
+                    {
+                      "containerPort": 8080,
+                      "name": "http1"
+                    }
+                  ],
+                  "resources": {
+                    "limits": {
+                      "cpu": "1000m",
+                      "memory": "512Mi"
+                    }
+                  },
+                  "startupProbe": {
+                    "failureThreshold": 1,
+                    "periodSeconds": 240,
+                    "tcpSocket": {
+                      "port": 8080
+                    },
+                    "timeoutSeconds": 240
+                  }
+                }
+              ],
+              "serviceAccountName": "235548062971-compute@developer.gserviceaccount.com",
+              "timeoutSeconds": 300
+            }
+          },
+          "traffic": [
+            {
+              "latestRevision": true,
+              "percent": 100
+            }
+          ]
+        },
+        "status": {
+          "address": {
+            "url": "https://pizza-seller-ffc4zfuh6a-uc.a.run.app"
+          },
+          "conditions": [
+            {
+              "lastTransitionTime": "2025-11-02T05:36:24.791834Z",
+              "status": "True",
+              "type": "Ready"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:35:19.359255Z",
+              "status": "True",
+              "type": "ConfigurationsReady"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:36:24.753117Z",
+              "status": "True",
+              "type": "RoutesReady"
+            }
+          ],
+          "latestCreatedRevisionName": "pizza-seller-00001-gnh",
+          "latestReadyRevisionName": "pizza-seller-00001-gnh",
+          "observedGeneration": 1,
+          "traffic": [
+            {
+              "latestRevision": true,
+              "percent": 100,
+              "revisionName": "pizza-seller-00001-gnh"
+            }
+          ],
+          "url": "https://pizza-seller-ffc4zfuh6a-uc.a.run.app"
+        }
+      },
+      "serviceName": "run.googleapis.com",
+      "status": {
+        "message": "Ready condition status changed to True for Service pizza-seller."
+      }
+    },
+    "receiveTimestamp": "2025-11-02T05:36:25.024477483Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "timestamp": "2025-11-02T05:36:24.804823Z"
+  },
+  {
+    "insertId": "-kirluzdr2ga",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "methodName": "/Services.CreateService",
+      "resourceName": "namespaces/airy-aria-476909-d1/revisions/pizza-seller-00001-gnh",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.Revision",
+        "apiVersion": "serving.knative.dev/v1",
+        "kind": "Revision",
+        "metadata": {
+          "annotations": {
+            "autoscaling.knative.dev/maxScale": "20",
+            "run.googleapis.com/client-name": "gcloud",
+            "run.googleapis.com/client-version": "545.0.0",
+            "run.googleapis.com/operation-id": "117592dd-2890-40ab-803b-92a1d824a0c7",
+            "run.googleapis.com/startup-cpu-boost": "true",
+            "serving.knative.dev/creator": "mohibkhan949@gmail.com"
+          },
+          "creationTimestamp": "2025-11-02T05:35:16.109953Z",
+          "generation": 1,
+          "labels": {
+            "client.knative.dev/nonce": "uhdnxzmxec",
+            "cloud.googleapis.com/location": "us-central1",
+            "run.googleapis.com/startupProbeType": "Default",
+            "serving.knative.dev/configuration": "pizza-seller",
+            "serving.knative.dev/configurationGeneration": "1",
+            "serving.knative.dev/route": "pizza-seller",
+            "serving.knative.dev/service": "pizza-seller",
+            "serving.knative.dev/serviceUid": "1e545dc3-38fb-4b99-aef3-2859517c4b5f"
+          },
+          "name": "pizza-seller-00001-gnh",
+          "namespace": "235548062971",
+          "ownerReferences": [
+            {
+              "apiVersion": "serving.knative.dev/v1",
+              "blockOwnerDeletion": true,
+              "controller": true,
+              "kind": "Configuration",
+              "name": "pizza-seller",
+              "uid": "fe60ccb0-3044-4d7a-8966-11963ac962c2"
+            }
+          ],
+          "resourceVersion": "AAZClfqs02Y",
+          "selfLink": "/apis/serving.knative.dev/v1/namespaces/235548062971/revisions/pizza-seller-00001-gnh",
+          "uid": "7df24af6-ef32-42f5-8e7b-8d28db25e2a8"
+        },
+        "spec": {
+          "containerConcurrency": 80,
+          "containers": [
+            {
+              "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/pizza-seller@sha256:a3120a9887fb46d030ddaf93483e9f9003996a47bb6acd9ae782c02c83b0d3a4",
+              "name": "pizza-seller-1",
+              "ports": [
+                {
+                  "containerPort": 8080,
+                  "name": "http1"
+                }
+              ],
+              "resources": {
+                "limits": {
+                  "cpu": "1000m",
+                  "memory": "512Mi"
+                }
+              },
+              "startupProbe": {
+                "failureThreshold": 1,
+                "periodSeconds": 240,
+                "tcpSocket": {
+                  "port": 8080
+                },
+                "timeoutSeconds": 240
+              }
+            }
+          ],
+          "serviceAccountName": "235548062971-compute@developer.gserviceaccount.com",
+          "timeoutSeconds": 300
+        },
+        "status": {
+          "conditions": [
+            {
+              "lastTransitionTime": "2025-11-02T05:36:23.454566Z",
+              "message": "Deploying revision succeeded in 1m7.34s.",
+              "status": "True",
+              "type": "Ready"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:36:23.390073Z",
+              "message": "Containers became healthy in 2.28s.",
+              "status": "True",
+              "type": "ContainerHealthy"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:35:19.264157Z",
+              "message": "Container image import completed in 2.44s.",
+              "status": "True",
+              "type": "ContainerReady"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:36:20.845268Z",
+              "message": "Provisioning imported containers completed in 1m1.58s. Checking container health. This will wait for up to 4m for the configured startup probe, including an initial delay of 0s.",
+              "status": "True",
+              "type": "ResourcesAvailable"
+            }
+          ],
+          "containerStatuses": [
+            {
+              "imageDigest": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/pizza-seller@sha256:a3120a9887fb46d030ddaf93483e9f9003996a47bb6acd9ae782c02c83b0d3a4",
+              "name": "pizza-seller-1"
+            }
+          ],
+          "imageDigest": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/pizza-seller@sha256:a3120a9887fb46d030ddaf93483e9f9003996a47bb6acd9ae782c02c83b0d3a4",
+          "logUrl": "https://console.cloud.google.com/logs/viewer?project=airy-aria-476909-d1&resource=cloud_run_revision/service_name/pizza-seller/revision_name/pizza-seller-00001-gnh&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22pizza-seller%22%0Aresource.labels.revision_name%3D%22pizza-seller-00001-gnh%22",
+          "observedGeneration": 1
+        }
+      },
+      "serviceName": "run.googleapis.com",
+      "status": {
+        "message": "Ready condition status changed to True for Revision pizza-seller-00001-gnh with message: Deploying revision succeeded in 1m7.34s."
+      }
+    },
+    "receiveTimestamp": "2025-11-02T05:36:24.461032158Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "timestamp": "2025-11-02T05:36:23.466804Z"
+  },
+  {
+    "insertId": "6906edd70005c83bf915c4b5",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T05:36:23.628228428Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"pizza-seller-1\" on port 8080.",
+    "timestamp": "2025-11-02T05:36:23.378939Z"
+  },
+  {
+    "insertId": "6906edd70005c1c369045554",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:36:23.713316572Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)",
+    "timestamp": "2025-11-02T05:36:23.377283Z"
+  },
+  {
+    "insertId": "6906edd70005bbda48203e66",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:36:23.713316572Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Application startup complete.",
+    "timestamp": "2025-11-02T05:36:23.375770Z"
+  },
+  {
+    "insertId": "6906edd70005baa3daf19146",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:36:23.379708551Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Waiting for application startup.",
+    "timestamp": "2025-11-02T05:36:23.375459Z"
+  },
+  {
+    "insertId": "6906edd70005ba822d326765",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:36:23.379708551Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Started server process [2]",
+    "timestamp": "2025-11-02T05:36:23.375426Z"
+  },
+  {
+    "insertId": "6906edd4000e9b818f2014ca",
+    "labels": {
+      "instanceId": "0014778296e85e0fe9952262f3d96c8f1953ebee8371ffadee1403f622fb57355b91f6b617d090cf0c9b4b47845824eec0a5e8426d1c088ee30a674eb5c6cfecc99b8cf1e88dd808028369d533de",
+      "scaling_reason": "DEPLOYMENT_ROLLOUT"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T05:36:20.964857868Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "pizza-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "pizza-seller-00001-gnh",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting new instance. Reason: DEPLOYMENT_ROLLOUT - Instance started due to traffic shifting between revisions due to deployment, traffic split adjustment, or deployment health check.",
+    "timestamp": "2025-11-02T05:36:20.957313Z"
+  },
+  {
+    "insertId": "nlu3s5dlrzo",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "oauthInfo": {
+          "oauthClientId": "32555940559.apps.googleusercontent.com"
+        },
+        "principalEmail": "mohibkhan949@gmail.com",
+        "principalSubject": "user:mohibkhan949@gmail.com"
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "run.services.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "namespaces/airy-aria-476909-d1/services/pizza-seller",
+          "resourceAttributes": {}
+        },
+        {
+          "granted": true,
+          "permission": "run.services.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "namespaces/airy-aria-476909-d1/services/pizza-seller",
+          "resourceAttributes": {
+            "name": "namespaces/airy-aria-476909-d1/services/pizza-seller",
+            "service": "run.googleapis.com/",
+            "type": "run.googleapis.com/Service"
+          }
+        }
+      ],
+      "methodName": "google.cloud.run.v1.Services.CreateService",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.CreateServiceRequest",
+        "parent": "namespaces/airy-aria-476909-d1",
+        "service": {
+          "apiVersion": "serving.knative.dev/v1",
+          "kind": "Service",
+          "metadata": {
+            "annotations": {
+              "run.googleapis.com/client-name": "gcloud",
+              "run.googleapis.com/client-version": "545.0.0"
+            },
+            "name": "pizza-seller",
+            "namespace": "airy-aria-476909-d1"
+          },
+          "spec": {
+            "template": {
+              "metadata": {
+                "annotations": {
+                  "run.googleapis.com/client-name": "gcloud",
+                  "run.googleapis.com/client-version": "545.0.0",
+                  "run.googleapis.com/startup-cpu-boost": "True"
+                },
+                "labels": {
+                  "client.knative.dev/nonce": "uhdnxzmxec"
+                }
+              },
+              "spec": {
+                "containers": [
+                  {
+                    "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/pizza-seller:latest",
+                    "name": ""
+                  }
+                ]
+              }
+            }
+          },
+          "status": {}
+        }
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.25.24",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/545.0.0 command/gcloud.run.deploy invocation-id/a28deff9a9eb489aad9b4fbf8a7239e8 environment/None environment-version/None client-os/LINUX client-os-ver/6.6.105 client-pltf-arch/x86_64 interactive/False from-script/False python/3.12.12 term/xterm-color  (Linux 6.6.105+),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-11-02T05:35:16.051386Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      },
+      "resourceName": "namespaces/airy-aria-476909-d1/services/pizza-seller",
+      "serviceName": "run.googleapis.com"
+    },
+    "receiveTimestamp": "2025-11-02T05:35:17.051330555Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "",
+        "service_name": "pizza-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-11-02T05:35:15.899474Z"
+  }
+]

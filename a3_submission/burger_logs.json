@@ -1,0 +1,1078 @@
+[
+  {
+    "insertId": "6906f5d300082c482cfda7e9",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:10:27.540809096Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:7350 - \"POST /order HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T06:10:27.535624Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.005412773s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "2600:1900:0:2d01::b01",
+      "requestMethod": "POST",
+      "requestSize": "379",
+      "requestUrl": "https://burger-seller-235548062971.us-central1.run.app/order",
+      "responseSize": "235",
+      "serverIp": "2600:1900:4241:200::",
+      "status": 200,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906f5d300082f0607942bb1",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:10:27.540977759Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "4337975348b66c3c",
+    "timestamp": "2025-11-02T06:10:27.521961Z",
+    "trace": "projects/airy-aria-476909-d1/traces/505107859c02c88e27d152d62a28b3ae",
+    "traceSampled": true
+  },
+  {
+    "insertId": "6906f55e000ee5fadf7fcbc2",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T06:08:30.983686577Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:65142 - \"GET /menu HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T06:08:30.976378Z"
+  },
+  {
+    "insertId": "6906f55e000d4867806da133",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T06:08:30.895377230Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"burger-seller-1\" on port 8080.",
+    "timestamp": "2025-11-02T06:08:30.870503Z"
+  },
+  {
+    "insertId": "6906f55e000d4664e83fe1b8",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:31.205772704Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)",
+    "timestamp": "2025-11-02T06:08:30.869988Z"
+  },
+  {
+    "insertId": "6906f55e000d4199069e7103",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:30.874306974Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Application startup complete.",
+    "timestamp": "2025-11-02T06:08:30.868761Z"
+  },
+  {
+    "insertId": "6906f55e000d416db2573d0e",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:30.874306974Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Waiting for application startup.",
+    "timestamp": "2025-11-02T06:08:30.868717Z"
+  },
+  {
+    "insertId": "6906f55e000d415ad21e05c4",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T06:08:30.874306974Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Started server process [2]",
+    "timestamp": "2025-11-02T06:08:30.868698Z"
+  },
+  {
+    "insertId": "6906f55d00036ba8215f4643",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0",
+      "scaling_reason": "AUTOSCALING"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T06:08:29.229786177Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting new instance. Reason: AUTOSCALING - Instance started due to configured scaling factors (e.g. CPU utilization, request throughput, etc.) or no existing capacity for current traffic.",
+    "timestamp": "2025-11-02T06:08:29.224168Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "1.636445422s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "2600:1900:0:2d01::b01",
+      "requestMethod": "GET",
+      "requestSize": "301",
+      "requestUrl": "https://burger-seller-235548062971.us-central1.run.app/menu",
+      "responseSize": "311",
+      "serverIp": "2600:1900:4240:200::",
+      "status": 200,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906f55e000f06f40206f125",
+    "labels": {
+      "instanceId": "0014778296de9b9cd830b502637259d3efd4332384039e4d7229465518419254cea9effe103e503eb3eec3523a4e0063a196e7a1f914a57965d52a1dda831d78c185d259a0666e97d889dfc6f0"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T06:08:30.988766792Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "456c910616b988b3",
+    "timestamp": "2025-11-02T06:08:29.202087Z",
+    "trace": "projects/airy-aria-476909-d1/traces/adf1ad14161b06bf68e40e1640f2728d",
+    "traceSampled": true
+  },
+  {
+    "insertId": "6906efa60001ed364e9e3204",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T05:44:06.371777724Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:62006 - \"POST /order HTTP/1.1\" 422 Unprocessable Entity",
+    "timestamp": "2025-11-02T05:44:06.126262Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.003888755s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "POST",
+      "requestSize": "1238",
+      "requestUrl": "https://burger-seller-235548062971.us-central1.run.app/order",
+      "responseSize": "220",
+      "serverIp": "34.143.75.2",
+      "status": 422,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906efa60001f0cde789c4c8",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T05:44:06.377349229Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "WARNING",
+    "spanId": "73a6d2bdb2c43461",
+    "timestamp": "2025-11-02T05:44:06.120904Z",
+    "trace": "projects/airy-aria-476909-d1/traces/8e70d509448a30b375ec6fc29b75422a"
+  },
+  {
+    "insertId": "6906efa3000ab625af9f212d",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T05:44:03.708429410Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:2242 - \"GET /menu HTTP/1.1\" 200 OK",
+    "timestamp": "2025-11-02T05:44:03.701989Z"
+  },
+  {
+    "insertId": "6906efa300090251c2e1b2dc",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T05:44:03.624886970Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"burger-seller-1\" on port 8080.",
+    "timestamp": "2025-11-02T05:44:03.590417Z"
+  },
+  {
+    "insertId": "6906efa300090089dd4fa27b",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:44:03.930778398Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)",
+    "timestamp": "2025-11-02T05:44:03.589961Z"
+  },
+  {
+    "insertId": "6906efa30008faeacb5418cc",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:44:03.930778398Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Application startup complete.",
+    "timestamp": "2025-11-02T05:44:03.588522Z"
+  },
+  {
+    "insertId": "6906efa30008fa0e4eec9a58",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:44:03.930778398Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Waiting for application startup.",
+    "timestamp": "2025-11-02T05:44:03.588302Z"
+  },
+  {
+    "insertId": "6906efa30008f998751fd683",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:44:03.593445114Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Started server process [2]",
+    "timestamp": "2025-11-02T05:44:03.588184Z"
+  },
+  {
+    "insertId": "6906efa1000e8acc64bf731b",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e",
+      "scaling_reason": "AUTOSCALING"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T05:44:01.960195876Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting new instance. Reason: AUTOSCALING - Instance started due to configured scaling factors (e.g. CPU utilization, request throughput, etc.) or no existing capacity for current traffic.",
+    "timestamp": "2025-11-02T05:44:01.953036Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "1.638494856s",
+      "protocol": "HTTP/1.1",
+      "remoteIp": "34.23.25.24",
+      "requestMethod": "GET",
+      "requestSize": "1151",
+      "requestUrl": "https://burger-seller-235548062971.us-central1.run.app/menu",
+      "responseSize": "311",
+      "serverIp": "34.143.75.2",
+      "status": 200,
+      "userAgent": "python-requests/2.32.4"
+    },
+    "insertId": "6906efa3000acf6a3014f2b9",
+    "labels": {
+      "instanceId": "00147782966c0f32c1278a5c15e6cbe4a8f26574144f8750ae618b60320f1d6686019a699531b34d3c00f5aefb80db7b4ef0086b9bacd114e1641cd13b7612a222486d3d85ad30aa988f7ac08e"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T05:44:03.713027390Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "spanId": "c19b3d0904e9b039",
+    "timestamp": "2025-11-02T05:44:01.942140Z",
+    "trace": "projects/airy-aria-476909-d1/traces/adc1f6578fd8bc73b25311da2be14a34",
+    "traceSampled": true
+  },
+  {
+    "insertId": "6906eb310004e8ec3e55c891",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T05:25:05.559277538Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:23886 - \"GET /favicon.ico HTTP/1.1\" 404 Not Found",
+    "timestamp": "2025-11-02T05:25:05.321772Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.002333993s",
+      "protocol": "HTTP/1.1",
+      "referer": "https://burger-seller-235548062971.us-central1.run.app/",
+      "remoteIp": "2601:646:a002:28e0:b87e:3818:906:92cc",
+      "requestMethod": "GET",
+      "requestSize": "1037",
+      "requestUrl": "https://burger-seller-235548062971.us-central1.run.app/favicon.ico",
+      "responseSize": "122",
+      "serverIp": "2600:1900:4242:200::",
+      "status": 404,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    "insertId": "6906eb310004eb5a66c7a755",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T05:25:05.557902290Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "WARNING",
+    "spanId": "e02c4f0b63c991f7",
+    "timestamp": "2025-11-02T05:25:05.318641Z",
+    "trace": "projects/airy-aria-476909-d1/traces/06c014f8c953783689e58cb0ae26f54b"
+  },
+  {
+    "insertId": "6906eb30000d81b63cb19a24",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2025-11-02T05:25:04.890490473Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     169.254.169.126:4710 - \"GET / HTTP/1.1\" 404 Not Found",
+    "timestamp": "2025-11-02T05:25:04.885174Z"
+  },
+  {
+    "httpRequest": {
+      "latency": "0.003812773s",
+      "protocol": "HTTP/1.1",
+      "referer": "https://colab.research.google.com/",
+      "remoteIp": "2601:646:a002:28e0:b87e:3818:906:92cc",
+      "requestMethod": "GET",
+      "requestSize": "1129",
+      "requestUrl": "https://burger-seller-235548062971.us-central1.run.app/",
+      "responseSize": "122",
+      "serverIp": "2600:1900:4242:200::",
+      "status": 404,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    "insertId": "6906eb30000d85020e47579e",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-11-02T05:25:04.894633390Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "WARNING",
+    "spanId": "d2e656aa6407a1eb",
+    "timestamp": "2025-11-02T05:25:04.875985Z",
+    "trace": "projects/airy-aria-476909-d1/traces/60dcea0bfe5489f489e58cb0ae26f620",
+    "traceSampled": true
+  },
+  {
+    "insertId": "-jxk511dnj4g",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "methodName": "/Services.CreateService",
+      "resourceName": "namespaces/airy-aria-476909-d1/services/burger-seller",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.Service",
+        "apiVersion": "serving.knative.dev/v1",
+        "kind": "Service",
+        "metadata": {
+          "annotations": {
+            "run.googleapis.com/client-name": "gcloud",
+            "run.googleapis.com/client-version": "545.0.0",
+            "run.googleapis.com/ingress": "all",
+            "run.googleapis.com/ingress-status": "all",
+            "run.googleapis.com/operation-id": "289d5fb2-401b-4d69-bc51-667d191f08c7",
+            "run.googleapis.com/urls": "[\"https://burger-seller-235548062971.us-central1.run.app\",\"https://burger-seller-ffc4zfuh6a-uc.a.run.app\"]",
+            "serving.knative.dev/creator": "mohibkhan949@gmail.com",
+            "serving.knative.dev/lastModifier": "mohibkhan949@gmail.com"
+          },
+          "creationTimestamp": "2025-11-02T05:23:40.208843Z",
+          "generation": 1,
+          "labels": {
+            "cloud.googleapis.com/location": "us-central1"
+          },
+          "name": "burger-seller",
+          "namespace": "235548062971",
+          "resourceVersion": "AAZClc72Bkk",
+          "selfLink": "/apis/serving.knative.dev/v1/namespaces/235548062971/services/burger-seller",
+          "uid": "77e7ceea-94bc-48fe-9827-935efbf90e27"
+        },
+        "spec": {
+          "template": {
+            "metadata": {
+              "annotations": {
+                "autoscaling.knative.dev/maxScale": "20",
+                "run.googleapis.com/client-name": "gcloud",
+                "run.googleapis.com/client-version": "545.0.0",
+                "run.googleapis.com/startup-cpu-boost": "true"
+              },
+              "labels": {
+                "client.knative.dev/nonce": "qpnfxjyetp",
+                "run.googleapis.com/startupProbeType": "Default"
+              }
+            },
+            "spec": {
+              "containerConcurrency": 80,
+              "containers": [
+                {
+                  "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/burger-seller:latest",
+                  "ports": [
+                    {
+                      "containerPort": 8080,
+                      "name": "http1"
+                    }
+                  ],
+                  "resources": {
+                    "limits": {
+                      "cpu": "1000m",
+                      "memory": "512Mi"
+                    }
+                  },
+                  "startupProbe": {
+                    "failureThreshold": 1,
+                    "periodSeconds": 240,
+                    "tcpSocket": {
+                      "port": 8080
+                    },
+                    "timeoutSeconds": 240
+                  }
+                }
+              ],
+              "serviceAccountName": "235548062971-compute@developer.gserviceaccount.com",
+              "timeoutSeconds": 300
+            }
+          },
+          "traffic": [
+            {
+              "latestRevision": true,
+              "percent": 100
+            }
+          ]
+        },
+        "status": {
+          "address": {
+            "url": "https://burger-seller-ffc4zfuh6a-uc.a.run.app"
+          },
+          "conditions": [
+            {
+              "lastTransitionTime": "2025-11-02T05:24:10.054217Z",
+              "status": "True",
+              "type": "Ready"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:24:05.756431Z",
+              "status": "True",
+              "type": "ConfigurationsReady"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:24:10.013586Z",
+              "status": "True",
+              "type": "RoutesReady"
+            }
+          ],
+          "latestCreatedRevisionName": "burger-seller-00001-mdh",
+          "latestReadyRevisionName": "burger-seller-00001-mdh",
+          "observedGeneration": 1,
+          "traffic": [
+            {
+              "latestRevision": true,
+              "percent": 100,
+              "revisionName": "burger-seller-00001-mdh"
+            }
+          ],
+          "url": "https://burger-seller-ffc4zfuh6a-uc.a.run.app"
+        }
+      },
+      "serviceName": "run.googleapis.com",
+      "status": {
+        "message": "Ready condition status changed to True for Service burger-seller."
+      }
+    },
+    "receiveTimestamp": "2025-11-02T05:24:10.129545087Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "timestamp": "2025-11-02T05:24:10.069812Z"
+  },
+  {
+    "insertId": "sl4nvedqa1m",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "methodName": "/Services.CreateService",
+      "resourceName": "namespaces/airy-aria-476909-d1/revisions/burger-seller-00001-mdh",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.Revision",
+        "apiVersion": "serving.knative.dev/v1",
+        "kind": "Revision",
+        "metadata": {
+          "annotations": {
+            "autoscaling.knative.dev/maxScale": "20",
+            "run.googleapis.com/client-name": "gcloud",
+            "run.googleapis.com/client-version": "545.0.0",
+            "run.googleapis.com/operation-id": "289d5fb2-401b-4d69-bc51-667d191f08c7",
+            "run.googleapis.com/startup-cpu-boost": "true",
+            "serving.knative.dev/creator": "mohibkhan949@gmail.com"
+          },
+          "creationTimestamp": "2025-11-02T05:23:40.315970Z",
+          "generation": 1,
+          "labels": {
+            "client.knative.dev/nonce": "qpnfxjyetp",
+            "cloud.googleapis.com/location": "us-central1",
+            "run.googleapis.com/startupProbeType": "Default",
+            "serving.knative.dev/configuration": "burger-seller",
+            "serving.knative.dev/configurationGeneration": "1",
+            "serving.knative.dev/route": "burger-seller",
+            "serving.knative.dev/service": "burger-seller",
+            "serving.knative.dev/serviceUid": "77e7ceea-94bc-48fe-9827-935efbf90e27"
+          },
+          "name": "burger-seller-00001-mdh",
+          "namespace": "235548062971",
+          "ownerReferences": [
+            {
+              "apiVersion": "serving.knative.dev/v1",
+              "blockOwnerDeletion": true,
+              "controller": true,
+              "kind": "Configuration",
+              "name": "burger-seller",
+              "uid": "6d9e9f52-7c8f-4e57-a7ce-dea8271abcf9"
+            }
+          ],
+          "resourceVersion": "AAZClc6wJas",
+          "selfLink": "/apis/serving.knative.dev/v1/namespaces/235548062971/revisions/burger-seller-00001-mdh",
+          "uid": "7ef2a519-f6d3-4276-91be-365d96e659c1"
+        },
+        "spec": {
+          "containerConcurrency": 80,
+          "containers": [
+            {
+              "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/burger-seller@sha256:f1e2f2466606321dbfc4fc9ebab149c4bdd4086baca398dcd0c664dd1c345012",
+              "name": "burger-seller-1",
+              "ports": [
+                {
+                  "containerPort": 8080,
+                  "name": "http1"
+                }
+              ],
+              "resources": {
+                "limits": {
+                  "cpu": "1000m",
+                  "memory": "512Mi"
+                }
+              },
+              "startupProbe": {
+                "failureThreshold": 1,
+                "periodSeconds": 240,
+                "tcpSocket": {
+                  "port": 8080
+                },
+                "timeoutSeconds": 240
+              }
+            }
+          ],
+          "serviceAccountName": "235548062971-compute@developer.gserviceaccount.com",
+          "timeoutSeconds": 300
+        },
+        "status": {
+          "conditions": [
+            {
+              "lastTransitionTime": "2025-11-02T05:24:05.474731Z",
+              "message": "Deploying revision succeeded in 25.16s.",
+              "status": "True",
+              "type": "Ready"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:24:05.425326Z",
+              "message": "Containers became healthy in 2.1s.",
+              "status": "True",
+              "type": "ContainerHealthy"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:23:42.220712Z",
+              "message": "Container image import completed in 1.25s.",
+              "status": "True",
+              "type": "ContainerReady"
+            },
+            {
+              "lastTransitionTime": "2025-11-02T05:24:03.127712Z",
+              "message": "Provisioning imported containers completed in 20.9s. Checking container health. This will wait for up to 4m for the configured startup probe, including an initial delay of 0s.",
+              "status": "True",
+              "type": "ResourcesAvailable"
+            }
+          ],
+          "containerStatuses": [
+            {
+              "imageDigest": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/burger-seller@sha256:f1e2f2466606321dbfc4fc9ebab149c4bdd4086baca398dcd0c664dd1c345012",
+              "name": "burger-seller-1"
+            }
+          ],
+          "imageDigest": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/burger-seller@sha256:f1e2f2466606321dbfc4fc9ebab149c4bdd4086baca398dcd0c664dd1c345012",
+          "logUrl": "https://console.cloud.google.com/logs/viewer?project=airy-aria-476909-d1&resource=cloud_run_revision/service_name/burger-seller/revision_name/burger-seller-00001-mdh&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22burger-seller%22%0Aresource.labels.revision_name%3D%22burger-seller-00001-mdh%22",
+          "observedGeneration": 1
+        }
+      },
+      "serviceName": "run.googleapis.com",
+      "status": {
+        "message": "Ready condition status changed to True for Revision burger-seller-00001-mdh with message: Deploying revision succeeded in 25.16s."
+      }
+    },
+    "receiveTimestamp": "2025-11-02T05:24:06.230628202Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "timestamp": "2025-11-02T05:24:05.485236Z"
+  },
+  {
+    "insertId": "6906eaf5000659fc341a3306",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T05:24:05.542652725Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"burger-seller-1\" on port 8080.",
+    "timestamp": "2025-11-02T05:24:05.416252Z"
+  },
+  {
+    "insertId": "6906eaf500065838cadeef4f",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:24:05.753233079Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)",
+    "timestamp": "2025-11-02T05:24:05.415800Z"
+  },
+  {
+    "insertId": "6906eaf500065390f8928b5b",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:24:05.753233079Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Application startup complete.",
+    "timestamp": "2025-11-02T05:24:05.414608Z"
+  },
+  {
+    "insertId": "6906eaf5000652ada79469c0",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:24:05.420225214Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Waiting for application startup.",
+    "timestamp": "2025-11-02T05:24:05.414381Z"
+  },
+  {
+    "insertId": "6906eaf50006528298fb1dac",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2025-11-02T05:24:05.420225214Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "textPayload": "INFO:     Started server process [2]",
+    "timestamp": "2025-11-02T05:24:05.414338Z"
+  },
+  {
+    "insertId": "6906eaf300032027b1cb8f59",
+    "labels": {
+      "instanceId": "0014778296709bbc0c0d85c828d4b768a6890c40962d2386f343a96de367731f1e8ba8caf76fba19760f86dd21e703548173fa2616ee13163708a5061ecd33181c0be48a9262a8e40d40779b13",
+      "scaling_reason": "DEPLOYMENT_ROLLOUT"
+    },
+    "logName": "projects/airy-aria-476909-d1/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2025-11-02T05:24:03.211050329Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "burger-seller",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "burger-seller-00001-mdh",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "INFO",
+    "textPayload": "Starting new instance. Reason: DEPLOYMENT_ROLLOUT - Instance started due to traffic shifting between revisions due to deployment, traffic split adjustment, or deployment health check.",
+    "timestamp": "2025-11-02T05:24:03.204839Z"
+  },
+  {
+    "insertId": "l3c8yidxf4x",
+    "logName": "projects/airy-aria-476909-d1/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "oauthInfo": {
+          "oauthClientId": "32555940559.apps.googleusercontent.com"
+        },
+        "principalEmail": "mohibkhan949@gmail.com",
+        "principalSubject": "user:mohibkhan949@gmail.com"
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "run.services.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "namespaces/airy-aria-476909-d1/services/burger-seller",
+          "resourceAttributes": {}
+        },
+        {
+          "granted": true,
+          "permission": "run.services.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "namespaces/airy-aria-476909-d1/services/burger-seller",
+          "resourceAttributes": {
+            "name": "namespaces/airy-aria-476909-d1/services/burger-seller",
+            "service": "run.googleapis.com/",
+            "type": "run.googleapis.com/Service"
+          }
+        }
+      ],
+      "methodName": "google.cloud.run.v1.Services.CreateService",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.run.v1.CreateServiceRequest",
+        "parent": "namespaces/airy-aria-476909-d1",
+        "service": {
+          "apiVersion": "serving.knative.dev/v1",
+          "kind": "Service",
+          "metadata": {
+            "annotations": {
+              "run.googleapis.com/client-name": "gcloud",
+              "run.googleapis.com/client-version": "545.0.0"
+            },
+            "name": "burger-seller",
+            "namespace": "airy-aria-476909-d1"
+          },
+          "spec": {
+            "template": {
+              "metadata": {
+                "annotations": {
+                  "run.googleapis.com/client-name": "gcloud",
+                  "run.googleapis.com/client-version": "545.0.0",
+                  "run.googleapis.com/startup-cpu-boost": "True"
+                },
+                "labels": {
+                  "client.knative.dev/nonce": "qpnfxjyetp"
+                }
+              },
+              "spec": {
+                "containers": [
+                  {
+                    "image": "us-central1-docker.pkg.dev/airy-aria-476909-d1/a3-images/burger-seller:latest",
+                    "name": ""
+                  }
+                ]
+              }
+            }
+          },
+          "status": {}
+        }
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.25.24",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/545.0.0 command/gcloud.run.deploy invocation-id/a9df4330fd204e8baed8ad9b2f86b253 environment/None environment-version/None client-os/LINUX client-os-ver/6.6.105 client-pltf-arch/x86_64 interactive/False from-script/False python/3.12.12 term/xterm-color  (Linux 6.6.105+),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-11-02T05:23:40.262487Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      },
+      "resourceName": "namespaces/airy-aria-476909-d1/services/burger-seller",
+      "serviceName": "run.googleapis.com"
+    },
+    "receiveTimestamp": "2025-11-02T05:23:40.871719391Z",
+    "resource": {
+      "labels": {
+        "configuration_name": "",
+        "location": "us-central1",
+        "project_id": "airy-aria-476909-d1",
+        "revision_name": "",
+        "service_name": "burger-seller"
+      },
+      "type": "cloud_run_revision"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-11-02T05:23:40.114946Z"
+  }
+]

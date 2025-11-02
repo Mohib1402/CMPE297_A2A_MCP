@@ -1,0 +1,2 @@
+burger_url=https://burger-seller-ffc4zfuh6a-uc.a.run.app
+pizza-seller https://pizza-seller-ffc4zfuh6a-uc.a.run.app
