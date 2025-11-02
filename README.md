@@ -103,9 +103,7 @@ pip install google-adk a2a-sdk fastmcp
   * Run the multi-agent app locally (e.g., `adk web`) to generate and score images in a loop.
   * Deploy the agent to **Vertex AI Agent Engine** and verify a session run.
 
-**Submission artifacts**
-
-  * `artifacts/` → dev UI screenshot, successful run logs, Agent Engine deployment screenshot, and your exact install/enable commands (`commands.txt`).
+**Submission Artifacts:** [View Artifacts for Codelab 1](https://github.com/Mohib1402/CMPE297_A2A_MCP/tree/main/a1_submission)
 
 -----
 
@@ -118,9 +116,7 @@ pip install google-adk a2a-sdk fastmcp
   * Implement an **MCP server** (commonly via **FastMCP**) exposing a `get_exchange_rate` tool; optionally deploy it to **Cloud Run**.
   * Build an **ADK** agent that consumes the MCP tool; **expose it as an A2A server** and test with the **A2A Python client**.
 
-**Submission artifacts**
-
-  * `artifacts/` → Cloud Run screenshot (if used), client test output (`test-client.log`), and a brief `MCP.md` describing your server tool(s).
+**Submission Artifacts:** [View Artifacts for Codelab 2](https://github.com/Mohib1402/CMPE297_A2A_MCP/tree/main/a2_submission)
 
 -----
 
@@ -133,9 +129,7 @@ pip install google-adk a2a-sdk fastmcp
   * Deploy **two A2A servers** to **Cloud Run**.
   * Deploy **Purchasing Concierge** (ADK) to **Agent Engine** as an **A2A client** which talks to both sellers; run a full purchase flow.
 
-**Submission artifacts**
-
-  * `artifacts/urls.txt` listing both seller URLs; screenshots of Cloud Run services, Agent Engine sessions, and a terminal/browser transcript of a successful order.
+**Submission Artifacts:** [View Artifacts for Codelab 3](https://github.com/Mohib1402/CMPE297_A2A_MCP/tree/main/a3_submission)
 
 -----
 
