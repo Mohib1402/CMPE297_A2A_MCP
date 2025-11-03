@@ -28,7 +28,7 @@ adk-mcp-a2a-assignment/
       └─ env.sample
 ```
 
-  * **One** YouTube link (below) covers **all three** codelabs.
+  * **One** link (below) covers **all three** codelabs.
   * Each codelab folder contains: `README.md`, `src/`, `artifacts/`, and an `env.sample` (no secrets).
   * The two top-level directories reflect the assignment’s “two sub directories” ask.
 
