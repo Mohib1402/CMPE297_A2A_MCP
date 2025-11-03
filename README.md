@@ -36,7 +36,7 @@ adk-mcp-a2a-assignment/
 
 ## 🎬 Demo Video
 
-  * **Demo (single link):** [Link to Video Walkthrough (https://drive.google.com/file/d/1mSM8HPZxOpg5eZ_DH64OQEJlkXvp7_yR/view?usp=sharing)]
+  * **Demo (single link):** [Link to Video Walkthrough](https://drive.google.com/file/d/1mSM8HPZxOpg5eZ_DH64OQEJlkXvp7_yR/view?usp=sharing)
     The video shows: (A) ADK multi-agent app local + deployed to **Agent Engine**; (B) an **MCP** server powering an **ADK** agent, exposed as an **A2A** server and verified with the A2A client; (C) **Purchasing Concierge** (A2A client) calling two remote seller A2A servers on **Cloud Run**.
 
 -----
